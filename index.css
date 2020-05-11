@@ -21,7 +21,7 @@ body{
 }
 .button{
     background: none;
-    border: 2px solid var(--primary);
+    border: 2px solid #086e23;
     color: var(--primary);
     padding: 6px 12px;
     border-radius: 20px;
@@ -38,7 +38,7 @@ input, textarea{
     padding: 10px 16px;
     border-radius: 20px;
     border: 2px solid var(--secondary);
-    color: #f2f2f2;
+    color:  #f2f2f2;
 }
 /* fonts */
 @font-face{
@@ -50,7 +50,7 @@ h1, h2, h3, h4{
     font-weight: normal;
 }
 p, a, li{
-    color: #EDF5E1/* #9893DB*/;
+    color: #EDF5E1;
    
 }
 h1,h3{
@@ -93,10 +93,12 @@ h4{
 }
 .welcome-image{
     grid-column: 6/9;
+    
 }
 .welcome-img img{
     width: 200%;
     border-radius: 5%;
+    display: none;
 }
 .welcome-text a {
     margin: 20px 0;
@@ -168,7 +170,7 @@ h4{
 footer{
     padding: 30px 20px;
     background-color:#2f3e46;
-    background-image: url(bonfire-1849089_640.png);
+    background-image: url(imageedit_10_2482163749.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
@@ -237,8 +239,7 @@ footer img{
         width: 100%;
         max-width: 1060px;
         margin: 0 auto;
-        box-sizing: border-bo
-        |
+        box-sizing: border-box;
 
     }
     .leading{
