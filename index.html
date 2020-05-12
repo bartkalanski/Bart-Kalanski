@@ -72,11 +72,11 @@
   <section id="contact">
       <h3>Get in Touch</h3>
       <p class="leading"></p>
-      <form>
-          <input type="text" placeholder="NAME">
-          <input type="email" placeholder="EMAIL">
-          <textarea placeholder="YOUR MESSAGE"></textarea>
-          <button class="button">Send Message</button>
+      <form class="contact-form" action="contact-form.php" method="post">
+          <input type="text" name="name" placeholder="NAME">
+          <input type="text" name="mail" placeholder="EMAIL">
+          <textarea name="message" placeholder="YOUR MESSAGE"></textarea>
+          <button type="submit" name ="submit" class="button">Send Message</button>
       </form>
   </section>
   <footer>
